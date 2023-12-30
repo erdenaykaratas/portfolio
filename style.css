@@ -431,11 +431,8 @@ footer p {
 
 .scroll-popup {
   position: fixed;
-  top: -100px; /* Initial position, above the viewport */
-  left: 50%;
-  transform: translateX(-50%);
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  background-color: #333;
+  color: #fff;
   padding: 10px;
   border-radius: 5px;
   opacity: 0;
@@ -444,6 +441,5 @@ footer p {
 }
 
 .scroll-popup.show {
-  top: 20px; /* Adjust the final position */
   opacity: 1;
 }
